@@ -1,7 +1,5 @@
 {
   "directory": "vendor/bower",
-  "registry": "http://bower.herokuapp.com",
-  "proxy":"http://webproxy.backbase.com:3128",
-  "https-proxy":"http://webproxy.backbase.com:3128"
+  "registry": "http://bower.herokuapp.com"
 
 }
