@@ -1,0 +1,24 @@
+{
+  "name": "cardsAwesome",
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "angular": "^1.6.0",
+    "angular-route": "^1.6.0",
+    "bootstrap": "^3.2.0",
+    "almond": "~0.3.1",
+    "requirejs": "~2.1.20"
+  },
+  "resolutions": {
+    "jquery": "~2.1.4",
+    "bootstrap": "~3.1"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "less/bootstrap.less",
+        "dist/css/bootstrap.css",
+        "dist/js/bootstrap.js"
+      ]
+    }
+  }
+}

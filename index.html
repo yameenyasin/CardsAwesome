@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cards Awesome</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Application styles. -->
+    <!-- build:[href] app/styles/styles.min.css -->
+    <link rel="stylesheet" href="app/styles/index.css" />
+    <!-- /build -->
+</head>
+
+<body data-ng-cloak>
+    
+
+    <section class="main">
+        <div data-ng-view id="ng-view"></div>
+    </section>
+    
+    
+    <footer id="footer">
+        <div class="navbar navbar-fixed-bottom">
+            <div class="navbar-inner footer">
+                <div class="container-fluid">
+                    <footer>
+                        <div class="row">
+                            <div class="col-md-6">
+                                Created by <a href="http://twitter.com/yameenyasin" target="_blank">Yameen Yasin</a>
+                            </div>
+                            <div class="col-md-6">
+                                Image Credits <a href="http://www.podravka.hr/inspiracija/" target="_blank">podravka.hr</a>
+                            </div>
+                        </div>
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    
+    <!-- Load custom scripts via RequireJS -->
+    <script src="vendor/bower/requirejs/require.js" data-main="app/main"></script>
+
+</body>
+
+</html>
